@@ -1,0 +1,155 @@
+body{
+	background-color: pink;
+	font-family: Arial;
+}
+*{/* menu*/
+    margin: 0;
+    padding: 0; /*Espacio entre el contenido del elemento y su borde*/
+    -webkit-box-sizing: border-box; /*calcular las medidas de un elemento */
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+}
+.navegacion ul{
+	list-style: none; /*Quita las viñetas de lista*/
+}
+.menu > li{
+	position: relative; /*la etiqueta posicionespecifica como un elementoes posicionado en el documento */
+display: inline-block; /*lista horisontal menu*/
+}
+.menu >li > a{
+	display: block;  /* Establece los tipos de visualizacion interna y externa de un elemento*/
+	padding: 15px 20px; /*Tamaño del menu del menu*/
+	color: #353535;
+	font-family: 'open sans';
+	text-decoration: none; /*No se pigna ningun subrrayado ni biñetas*/
+}
+.menu li a:hover{ /*Darle color a las letras del menu*/
+color: #CE7D35;
+transition: all .3s; /*Darle transicion al color de las letras del menu*/
+}
+/*submenu*/
+.submenu{
+	position: absolute;/*la etiqueta position especifica como un elemento es posicionado en eldocumento */
+	background: #333333;
+	width: 120%;
+	visibility: hidden; /*Visualizar el efecto de seleccion, hidden esconde el elemento pero deja vacio el espacio*/
+	opacity: 0; /*transparencia del elemento*/
+	transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block; /*Espacio entre palabras*/
+	padding: 15px; /*Espacio entre palabras*/
+	color: #fff; /*color de la letra*/
+	font-family: 'open sans'; /*Tipo de letra*/
+	text-decoration: none:
+}
+.menu li:hover .submenu{ /*Ocultar el submenu*/
+visibility: visible; /*Al pasar el cursor al menu se visualizo el submenu*/
+opacity: 1;
+}
+ .subm{
+	 position: absolute;/*la etiqueta position especifica como un elemento es posicionado en el documento*/
+	 background: #333333;
+	 width: 120%;
+	 visibility: hidden; /*visualizar el efecto de seleccion, hidden esconde el elemento pero dejs vacio el espacio*/
+	 opacity: 0; /*transparencia del elemento*/
+	 transition: opacity 1.5s;
+ }
+ .subm li a{
+	 display: block;
+	 padding: 15px;
+	 color: #fff;
+	 font-family: 'open sans';
+	 text-decoration: none;
+ }
+ .menu li:hover .subm{ /*ocultar el submenu*/
+      opacity: 1;
+      visibility: visible: /*ocultar el submenu*/
+	  
+ }
+ h1.t1{
+	color:blue;
+	text-align: center;
+}
+p.pa1{
+	color: red;
+	text-align: justify;
+}
+
+.img{ /*Diseño de la imagen*/
+     width: 300px;
+	 height: 300px;
+	 padding: 10px;
+	 margin: 10px;
+	 border: 2px solid black;
+	 display: block;
+	 margin: 0px auto;
+	 /*float: right;
+	 float: left; left | right | none */
+}
+.hipervinculo{/*Diseño del hipervinculo*/
+     float: left;
+}
+.video{ /*Diseño del video*/
+      width:500px;
+	  height:500px;
+	  float: left;
+}
+p.im{/*Diseño del parrafo imagen*/
+     color: blue;
+	 font-family: cursive;
+	 font-size: x-large;
+}
+p.hi{/*Diseño del parrafo hipervinculo*/
+     color: green;
+	 font-family: cursive;
+	 font-size: x-large;
+}
+p.vi{/*Diseño del parrafo video*/
+     color: orange;
+	 font-family: cursive;
+	 font-size: x-large;
+}
+*{/* menu*/
+   margin: 0;
+   padding: 0; /*Espacio entre el contenido del elemento y su borde*/
+   -webkit-box-sizing: border-box; /*Calcular las medidas de un elemento*/
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+/*tabla*/
+#tabla{
+	margin:150px auto;
+	width: 600px;
+	float: center; /*ubica un elemento en su contenedor segun la posicion dada*/
+}
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse; /*Fusionar los bordes*/
+	width:100%;
+}
+th, td{
+	border: solid 1px black;
+	padding: 5px;
+}
+thead{/*Bloque de filas*/
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D; /*Establece el estilo del borde inferior de un elemento, se define el estilo, grosor y color*/
+	color: white;
+}
+tr:nth-child(even){/*Seleccion de varios elementos hijo, seleccion de una linea y otra no*/
+    background-color: #ddd;
+}
+tr:hover td{ /*Al seleccionar una fila colorear el espacio y la letra la pasa a blanco*/
+   background-color: #369681;
+   color: white;
+}
+	 
+	 
+	
